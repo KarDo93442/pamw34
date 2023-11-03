@@ -1,0 +1,11 @@
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\bin\Debug\net7.0\P06Shop.Shared.deps.json
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\bin\Debug\net7.0\P06Shop.Shared.dll
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\bin\Debug\net7.0\P06Shop.Shared.pdb
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.AssemblyInfoInputs.cache
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.AssemblyInfo.cs
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.csproj.CoreCompileInputs.cache
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.dll
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\refint\P06Shop.Shared.dll
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\P06Shop.Shared.pdb
+C:\Users\karol\Source\Repos\pamw34\P06Shop.Shared\obj\Debug\net7.0\ref\P06Shop.Shared.dll
