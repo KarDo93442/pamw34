@@ -108,10 +108,10 @@ namespace P04WeatherForecastAPI.Client.ViewModels
         public void OpenShopWindow()
         {
             ShopProductsView shopProductsView = _serviceProvider.GetService<ShopProductsView>();
-            ProductsViewModel productsViewModel = _serviceProvider.GetService<ProductsViewModel>();
+            ShoesViewModel productsViewModel = _serviceProvider.GetService<ShoesViewModel>();
 
             shopProductsView.Show();
-            productsViewModel.GetProducts();
+            productsViewModel.GetShoes();
         }
     }
 }

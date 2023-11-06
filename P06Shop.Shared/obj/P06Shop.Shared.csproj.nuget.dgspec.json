@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karol\\Source\\Repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj": {}
+    "C:\\Users\\karol\\source\\repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karol\\Source\\Repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj": {
+    "C:\\Users\\karol\\source\\repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karol\\Source\\Repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\karol\\source\\repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj",
         "projectName": "P06Shop.Shared",
-        "projectPath": "C:\\Users\\karol\\Source\\Repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj",
+        "projectPath": "C:\\Users\\karol\\source\\repos\\pamw34\\P06Shop.Shared\\P06Shop.Shared.csproj",
         "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karol\\Source\\Repos\\pamw34\\P06Shop.Shared\\obj\\",
+        "outputPath": "C:\\Users\\karol\\source\\repos\\pamw34\\P06Shop.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config",

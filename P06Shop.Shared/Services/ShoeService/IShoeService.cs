@@ -3,8 +3,8 @@ using P06Shop.Shared.Shop;
 
 namespace P06Shop.Shared.Services.ProductService
 {
-    public interface IProductService
+    public interface IShoeService
     {
-        Task<ServiceResponse<List<Product>>> GetProductsAsync();
+        Task<ServiceResponse<List<Shoe>>> GetProductsAsync();
     }
 }

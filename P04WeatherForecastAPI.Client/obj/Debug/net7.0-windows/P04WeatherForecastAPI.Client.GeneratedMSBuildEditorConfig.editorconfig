@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = P04WeatherForecastAPI.Client
-build_property.ProjectDir = C:\Users\karol\Source\Repos\pamw34\P04WeatherForecastAPI.Client\
+build_property.ProjectDir = C:\Users\karol\source\repos\pamw34\P04WeatherForecastAPI.Client\

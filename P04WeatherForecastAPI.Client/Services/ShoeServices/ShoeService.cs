@@ -16,11 +16,11 @@ using System.Threading.Tasks;
 
 namespace P04WeatherForecastAPI.Client.Services.ProductServices
 {
-    internal class ProductService : IProductService
+    internal class ShoeService : IShoeService
     {
         private readonly HttpClient _httpClient;
         private readonly AppSettings _appSettings;
-        public ProductService(HttpClient httpClient, IOptions<AppSettings> appSettings)
+        public ShoeService(HttpClient httpClient, IOptions<AppSettings> appSettings)
         {
             _httpClient= httpClient;
             _appSettings= appSettings.Value;
@@ -41,11 +41,11 @@ namespace P04WeatherForecastAPI.Client.Services.ProductServices
 
 
         // alternatywny sposób pobierania danych 
-        public async Task<ServiceResponse<List<Product>>> GetProductsAsync()
+        public async Task<ServiceResponse<List<Shoe>>> GetProductsAsync()
         {
             var response = await _httpClient.GetAsync(_appSettings.BaseProductEndpoint.GetAllProductsEndpoint);
             var json = await response.Content.ReadAsStringAsync();
-            var result = JsonConvert.DeserializeObject<ServiceResponse<List<Product>>>(json);
+            var result = JsonConvert.DeserializeObject<ServiceResponse<List<Shoe>>>(json);
             return result;
         }
     }

@@ -20,7 +20,7 @@ namespace P04WeatherForecastAPI.Client
     /// </summary>
     public partial class ShopProductsView : Window
     {
-        public ShopProductsView(ProductsViewModel productsViewModel)
+        public ShopProductsView(ShoesViewModel productsViewModel)
         {
             DataContext = productsViewModel;
             InitializeComponent();

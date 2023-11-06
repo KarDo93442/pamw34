@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JiADtDQIgi9mAfzaVHVdMUq3oDsIEQuDnI+rP8r+pZBVVyYj5ya0og5Gp7aonPY9fPzPh2PHYae6m3J3oW7tXg==",
+  "dgSpecHash": "IKjgVO64rW8B4tUSxmVlpwSL/7CgnbZkmkChoUUIGOBdrNVvWSgJtZ6vr1VUO2H1fwwFdOd3znX/kxxg+JqVEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karol\\Source\\Repos\\pamw34\\P05Shop.API\\P05Shop.API.csproj",
+  "projectFilePath": "C:\\Users\\karol\\source\\repos\\pamw34\\P05Shop.API\\P05Shop.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",

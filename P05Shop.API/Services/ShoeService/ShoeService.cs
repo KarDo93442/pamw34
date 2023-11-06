@@ -5,15 +5,15 @@ using P07Shop.DataSeeder;
 
 namespace P05Shop.API.Services.ProductService
 {
-    public class ProductService : IProductService
+    public class ShoeService : IShoeService
     {
-        public async Task<ServiceResponse<List<Product>>> GetProductsAsync()
+        public async Task<ServiceResponse<List<Shoe>>> GetProductsAsync()
         {
             try
             {
-                var response = new ServiceResponse<List<Product>>()
+                var response = new ServiceResponse<List<Shoe>>()
                 {
-                    Data = ProductSeeder.GenerateProductData(),
+                    Data = ShoeSeeder.GenerateProductData(),
                     Message = "Ok",
                     Success = true
                 };
@@ -22,7 +22,7 @@ namespace P05Shop.API.Services.ProductService
             }
             catch (Exception)
             {
-                return new  ServiceResponse<List<Product>>()
+                return new  ServiceResponse<List<Shoe>>()
                 {
                     Data = null,
                     Message = "Problem with dataseeder library",

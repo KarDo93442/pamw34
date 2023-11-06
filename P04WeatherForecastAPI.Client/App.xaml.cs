@@ -64,7 +64,7 @@ namespace P04WeatherForecastAPI.Client
             // konfiguracja serwisów 
             services.AddSingleton<IAccuWeatherService, AccuWeatherService>();
             services.AddSingleton<IFavoriteCityService, FavoriteCityService>();
-            services.AddSingleton<IProductService, ProductService>();
+            services.AddSingleton<IShoeService, ShoeService>();
         }
 
         private void ConfigureViewModels(IServiceCollection services)
@@ -73,7 +73,7 @@ namespace P04WeatherForecastAPI.Client
             // konfiguracja viewModeli 
             services.AddSingleton<MainViewModelV4>();
             services.AddSingleton<FavoriteCityViewModel>();
-            services.AddSingleton<ProductsViewModel>();
+            services.AddSingleton<ShoesViewModel>();
             // services.AddSingleton<BaseViewModel,MainViewModelV3>();
         }
 
@@ -92,7 +92,7 @@ namespace P04WeatherForecastAPI.Client
                 Path = appSettingsSection.BaseProductEndpoint.Base_url,
             };
             //Microsoft.Extensions.Http
-            services.AddHttpClient<IProductService, ProductService>(client => client.BaseAddress = uriBuilder.Uri);
+            services.AddHttpClient<IShoeService, ShoeService>(client => client.BaseAddress = uriBuilder.Uri);
         }
 
         private void OnStartup(object sender, StartupEventArgs e)

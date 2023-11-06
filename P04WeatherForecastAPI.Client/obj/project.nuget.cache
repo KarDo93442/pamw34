@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DJbCgq6Pofn9MAJsv628kvvllVPdQvywSq/glrJQzMbn8L8VIiB0z1D9Lu55QlX+3AOZxhhNLjQeiNJwHZtLw==",
+  "dgSpecHash": "1Xfr7v/WZNHIypDniGFW1eBEax6l5Ls3UXI2xfQxAeQDLKPz5hjcyr8jg+mQAerroE0GSrZrYE9QNBjU0Ktj0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karol\\Source\\Repos\\pamw34\\P04WeatherForecastAPI.Client\\P04WeatherForecastAPI.Client.csproj",
+  "projectFilePath": "C:\\Users\\karol\\source\\repos\\pamw34\\P04WeatherForecastAPI.Client\\P04WeatherForecastAPI.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
